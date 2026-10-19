@@ -1,0 +1,8 @@
+// A realistic-but-problematic UI status palette.
+// Under deuteranopia, error ~ success collapses to ΔE76 ≈ 2.8
+// (normal-vision ΔE76 ≈ 102.8) — they become the same color.
+error   #d32f2f
+success #2e7d32
+warning #f9a825
+info    #1565c0
+neutral #455a64

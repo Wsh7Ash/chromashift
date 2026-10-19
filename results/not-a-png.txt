@@ -1,0 +1,1 @@
+deliberately not a PNG, to demonstrate the exit-2 path

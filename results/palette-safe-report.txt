@@ -1,0 +1,14 @@
+chromashift — palette CVD report
+colors: 5   pairs compared: 10
+severity: 1.0   confusable threshold: ΔE76 < 6.0
+
+[protanopia] flagged 0
+  (none)
+
+[deuteranopia] flagged 0
+  (none)
+
+[tritanopia] flagged 0
+  (none)
+
+verdict: PASS  (flagged pairs total: 0)

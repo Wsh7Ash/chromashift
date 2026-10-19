@@ -1,0 +1,53 @@
+{
+  "tool": "chromashift",
+  "threshold": 6.0,
+  "severity": 1.0,
+  "colors": [
+    {
+      "name": "error",
+      "hex": "#d32f2f"
+    },
+    {
+      "name": "success",
+      "hex": "#2e7d32"
+    },
+    {
+      "name": "warning",
+      "hex": "#f9a825"
+    },
+    {
+      "name": "info",
+      "hex": "#1565c0"
+    },
+    {
+      "name": "neutral",
+      "hex": "#455a64"
+    }
+  ],
+  "pair_count": 10,
+  "conditions": {
+    "protanopia": {
+      "flagged_count": 0,
+      "flagged": []
+    },
+    "deuteranopia": {
+      "flagged_count": 1,
+      "flagged": [
+        {
+          "a": "error",
+          "b": "success",
+          "a_hex": "#d32f2f",
+          "b_hex": "#2e7d32",
+          "de_normal": 102.82,
+          "de_cvd": 2.8
+        }
+      ]
+    },
+    "tritanopia": {
+      "flagged_count": 0,
+      "flagged": []
+    }
+  },
+  "flagged_total": 1,
+  "verdict": "FAIL"
+}
